@@ -1,0 +1,11 @@
+body {
+    max-width: 767px;
+    font-size: 2rem;
+    text-align: center;
+}
+/* En tête de la page du site */
+#logo{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 25%;
+}
