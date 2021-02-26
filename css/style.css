@@ -48,16 +48,30 @@ header{
     font-weight: bold;
     text-align: left;
     margin-left: 5%;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
     margin-top: 12%;
-}
-ol{
-    list-style-type: decimal;
 }
 .fonction a{
     text-decoration: none;
+    color: black;
 }
 .fonction{
+    background-color: #fbfbfb;
+    border-radius: 20px 20px 20px 20px;
     margin-bottom: 5%;
-    
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
+.fa-mobile-alt, .fa-list-ul, .fa-store{
+    margin-right: 7%;
+    color: grey;
+}
+.fonction:hover{
+    background-color: #f5edff;
+}
+.fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover{
+    color: #9356dc;
+}
+/* Fin du menu navigation */
