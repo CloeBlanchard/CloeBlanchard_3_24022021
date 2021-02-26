@@ -44,6 +44,9 @@ header{
 }
 /* Fin d'en tête de la page du site */
 /* Menu navigation */
+.navigation{
+    margin-bottom: 13%;
+}
 .titre{
     font-weight: bold;
     text-align: left;
@@ -58,7 +61,7 @@ header{
 .fonction{
     background-color: #fbfbfb;
     border-radius: 20px 20px 20px 20px;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 3%;
@@ -75,3 +78,13 @@ header{
     color: #9356dc;
 }
 /* Fin du menu navigation */
+/* Présentation des restaurants */
+.restaurant{
+    background-color: #f6f6f6;
+}
+.taille{
+    width: 50%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
