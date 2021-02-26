@@ -40,5 +40,24 @@ header{
     margin-left: 25%;
     margin-right: 25%;
     color: white;
+    /* box shadow */
 }
 /* Fin d'en tête de la page du site */
+/* Menu navigation */
+.titre{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 9%;
+    margin-top: 12%;
+}
+ol{
+    list-style-type: decimal;
+}
+.fonction a{
+    text-decoration: none;
+}
+.fonction{
+    margin-bottom: 5%;
+    
+}
