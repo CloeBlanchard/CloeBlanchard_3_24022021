@@ -120,3 +120,20 @@ header{
     margin-left: 3%;
 }
 /* Fin de la présentation des restaurants */
+/* Footer */
+footer{
+    background-color: #353535;
+    color: white;
+    text-align: left;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.charte{
+    text-align: left;
+}
+#logo2{
+    width: 25%;
+    margin-bottom: 3%;
+}
