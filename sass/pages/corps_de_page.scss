@@ -1,0 +1,48 @@
+/* Présentation des restaurants */
+.restaurant{
+    background-color: #f6f6f6;
+    padding-bottom: 3%;
+}
+.restaurant__titre{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    margin-top: 12%;
+}
+.restaurant__taille{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.restaurant__carte{
+    border: solid 0px $blanc;
+    background-color: $blanc;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+}
+.restaurant__carte a{
+    text-decoration: none;
+    color: black;
+}
+.restaurant__soustitre{
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.fa-heart{
+    float: right ;
+    margin-right: 6%;
+    margin-top: -3%;
+}
+.restaurant__description{
+    text-align: left;
+    padding-bottom: 6%;
+    margin-left: 3%;
+}
+/* Fin de la présentation des restaurants */

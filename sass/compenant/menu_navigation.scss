@@ -1,0 +1,37 @@
+.menu__titre {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    margin-top: 12%;
+}
+.navigation__fonction a {
+    text-decoration: none;
+    color: black;
+}
+.navigation__fonction {
+    border-radius: 50px 50px 50px 50px;
+    background: $gris;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    color: $blanc;
+}
+.navigation__fonction:hover {
+    background-color: $rose-claire;
+}
+.fa-mobile-alt, .fa-list-ul, .fa-store {
+    color: $gris-foncer;
+}
+.fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
+    color: $primaire;
+}
+.navigation__puce {
+    background-color: $primaire;
+    color: $blanc;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+}

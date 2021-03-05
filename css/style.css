@@ -1,139 +1,163 @@
+@charset "UTF-8";
 body {
-    max-width: 767px;
-    font-size: 2rem;
-    text-align: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
-/* En tête de la page du site */
-#logo{
-    margin-top: 4%;
-    margin-bottom: 3%;
-    width: 25%;
+
+header {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  width: 25%;
 }
-header{
-    background-color: #f6f6f6;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
+
+.menu__titre {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-top: 12%;
 }
-.paris{
-    background-color: #eaeaea;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 1.5rem;
-    /* box sahdow en haut */
+
+.navigation__fonction a {
+  text-decoration: none;
+  color: black;
 }
-.reservation{
-    margin-top: 8%;
-    font-weight: bold;
-    /* retour à la ligne */
-    margin-bottom: 3%;
+
+.navigation__fonction {
+  border-radius: 50px 50px 50px 50px;
+  background: #eaeaea;
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  color: white;
 }
-.decouvrir{
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+
+.navigation__fonction:hover {
+  background-color: #f5edff;
 }
-.explorer{
-    border-radius: 50px 50px 50px 50px;
-    background: linear-gradient(to bottom right, #ff79da , #9356dc);
-    padding: 2%;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    color: white;
-    /* box shadow */
+
+.fa-mobile-alt, .fa-list-ul, .fa-store {
+  color: #7e7e7e;
 }
-/* Fin d'en tête de la page du site */
-/* Menu navigation */
-.navigation{
-    margin-bottom: 13%;
+
+.fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
+  color: #9356DC;
 }
-.titre{
-    font-weight: bold;
-    text-align: left;
-    margin-left: 5%;
-    margin-bottom: 7%;
-    margin-top: 12%;
+
+.navigation__puce {
+  background-color: #9356DC;
+  color: white;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  border-radius: 100%;
 }
-.fonction a{
-    text-decoration: none;
-    color: black;
+
+.presentation {
+  background-color: #f6f6f6;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
-.fonction{
-    background-color: #fbfbfb;
-    border-radius: 20px 20px 20px 20px;
-    margin-bottom: 4%;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+
+.presentation__paris {
+  background-color: #eaeaea;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 1.5rem;
 }
-.fa-mobile-alt, .fa-list-ul, .fa-store{
-    margin-right: 7%;
-    color: grey;
+
+.presentation__reservation {
+  margin-top: 8%;
+  font-weight: bold;
+  margin-bottom: 3%;
 }
-.fonction:hover{
-    background-color: #f5edff;
+
+.presentation__decouvrir {
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-.fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover{
-    color: #9356dc;
+
+.presentation__explorer {
+  border-radius: 50px 50px 50px 50px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  padding: 2%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
 }
-/* Fin du menu navigation */
+
 /* Présentation des restaurants */
-.restaurant{
-    background-color: #f6f6f6;
-    padding-bottom: 3%;
+.restaurant {
+  background-color: #f6f6f6;
+  padding-bottom: 3%;
 }
-.taille{
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+
+.restaurant__titre {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-top: 12%;
 }
-.carte{
-    border: solid 0px white;
-    background-color: white;
-    width: 50%;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
-    margin-left: 20%;
-    margin-top: 2%;
-    margin-bottom: 4%;
+
+.restaurant__taille {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
 }
-.carte a{
-    text-decoration: none;
-    color: black;
+
+.restaurant__carte {
+  border: solid 0px white;
+  background-color: white;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1), -0.2em 0 0.2em rgba(0, 0, 0, 0.1);
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-bottom: 4%;
 }
-.sous-titre{
-    font-weight: bold;
-    margin-top: 4%;
-    margin-bottom: 4%;
+
+.restaurant__carte a {
+  text-decoration: none;
+  color: black;
 }
-.fa-heart{
-    float: right ;
-    margin-right: 6%;
-    margin-top: -3%;
+
+.restaurant__soustitre {
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
-.description{
-    text-align: left;
-    padding-bottom: 6%;
-    font-size: 25px;
-    margin-left: 3%;
+
+.fa-heart {
+  float: right;
+  margin-right: 6%;
+  margin-top: -3%;
 }
+
+.restaurant__description {
+  text-align: left;
+  padding-bottom: 6%;
+  margin-left: 3%;
+}
+
 /* Fin de la présentation des restaurants */
-/* Footer */
-footer{
-    background-color: #353535;
-    color: white;
-    text-align: left;
+footer {
+  background-color: #353535;
+  color: white;
+  text-align: left;
 }
-footer a{
-    text-decoration: none;
-    color: white;
+
+.footer__charte a {
+  text-decoration: none;
+  color: white;
 }
-.charte{
-    text-align: left;
+
+.footer__charte {
+  text-align: left;
 }
-#logo2{
-    width: 25%;
-    margin-bottom: 3%;
-}
+
+/*# sourceMappingURL=style.css.map */
