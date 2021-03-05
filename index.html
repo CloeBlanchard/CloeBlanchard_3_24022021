@@ -5,82 +5,85 @@
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/5541233122.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 
 <body> <!-- Corps de la page -->
-    
-    <h1><img src="images_ohmyfood/logo/ohmyfood.png" id="logo" alt="logo"/></h1>
+   
+    <header class="en_tete">
+        <h1><img src="images_ohmyfood/logo/ohmyfood.png" id="logo" alt="logo"/></h1>
+    </header>
 
-    <header> <!-- En tête de la page / site -->
-        <p class="paris"><i class="fas fa-map-marker-alt"></i> Paris, Belleville </p>
-        <h2 class="reservation">Réservez le menu qui vous convient</h2>
-        <p class="decouvrir">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-        <p class="explorer">Explorer nos restaurants</p>
+    <section class="presantation"> <!-- En tête de la page / site -->
+        <p class="presentation__paris"><i class="fas fa-map-marker-alt"></i> Paris, Belleville </p>
+        <h2 class="presentation__reservation">Réservez le menu qui vous convient</h2>
+        <p class="presentation__decouvrir">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+        <p class="presentation__explorer">Explorer nos restaurants</p>
     </header> <!-- Fin en tete de la page / site -->
 
-    <section> <!-- Menu de la page d'accueil -->
-        <h2 class="titre"> Fonctionnement </h2>
-        <nav class="navigation">
-
-            <ol class="menu">
-            <li class="fonction"><a href="#"> <i class="fas fa-mobile-alt"></i> Choisissez un restaurants</a></li>
-            <li class="fonction"><a href="#"> <i class="fas fa-list-ul"></i> Composez votre menu</a></li>
-            <li class="fonction"><a href="#"> <i class="fas fa-store"></i> Dégustez un restaurants</a></li>
+    <section class="menu"> <!-- Menu de la page d'accueil -->
+        <h2 class="menu__titre"> Fonctionnement </h2>
+        <nav class="menu__navigation">
+            <ol class="navigation__liste">
+                <li class="navigation__fonction"><a href="#"> <span class="navigation__puce">1</span> <i class="fas fa-mobile-alt"></i> Choisissez un restaurants</a></li>
+                <li class="navigation__fonction"><a href="#"> 2 <i class="fas fa-list-ul"></i> Composez votre menu</a></li>
+                <li class="navigation__fonction"><a href="#"> 3 <i class="fas fa-store"></i> Dégustez un restaurants</a></li>
             </ol>
         </nav>
     </section> <!-- Fin du menu de la page d'accueil -->
 
     <section class="restaurant"> <!-- Présantation des restaurants -->
-        <h2 class="titre">Restaurants</h2>
+        <h2 class="restaurant__titre">Restaurants</h2>
 
-        <figure class="carte">
+        <figure class="restaurant__carte">
             <a href="#">
-                <img src="images_ohmyfood/restaurants/palette_du_gout.jpg" alt="restaurant" class="taille">
-                <figcaption class="description">
-                    <h3 class="sous-titre">La palette du goût</h3>
-                    <h3 class="sous-titre2">Ménilmontant <i class="far fa-heart"></i></h3>
+                <img src="images_ohmyfood/restaurants/palette_du_gout.jpg" alt="restaurant" class="restaurant__taille">
+                <figcaption class="restaurant__description">
+                    <h3 class="restaurant__soustitre">La palette du goût</h3>
+                    <p class="restautant__soustitre2">Ménilmontant <i class="far fa-heart"></i></p>
                 </figcaption>
             </a>
         </figure>
 
-        <figure class="carte">
+        <figure class="restaurant__carte">
             <a href="#">
-                <img src="images_ohmyfood/restaurants/note_enchantée.jpg" alt="restaurant" class="taille">
-                <figcaption class="description">
-                    <h3 class="sous-titre">La note enchantée</h3>
-                    <h3 class="sous-titre2">Charonne <i class="far fa-heart"></i></h3>
+                <img src="images_ohmyfood/restaurants/note_enchantée.jpg" alt="restaurant" class="restaurant__taille">
+                <figcaption class="restaurant__description">
+                    <h3 class="restaurant__soustitre">La note enchantée</h3>
+                    <p class="restaurant__soustitre2">Charonne <i class="far fa-heart"></i></p>
                 </figcaption>
             </a>
         </figure>
 
-        <figure class="carte">
+        <figure class="restaurant__carte">
             <a href="#">
-                <img src="images_ohmyfood/restaurants/la_francaise.jpg" alt="restaurant" class="taille">
-                <figcaption class="description">
-                    <h3 class="sous-titre">A la française</h3>
-                    <h3 class="sous-titre2">Cité Rouge <i class="far fa-heart"></i></h3>
+                <img src="images_ohmyfood/restaurants/la_francaise.jpg" alt="restaurant" class="restaurant__taille">
+                <figcaption class="restaurant__description">
+                    <h3 class="restaurant__soustitre">A la française</h3>
+                    <p class="restaurant__soustitre2">Cité Rouge <i class="far fa-heart"></i></p>
                 </figcaption>
             </a>
         </figure>
 
-        <figure class="carte">
+        <figure class="restaurant__carte">
             <a href="#"><a href="#">
-                <img src="images_ohmyfood/restaurants/delice_des_sens.jpg" alt="restaurant" class="taille">
-                <figcaption class="description">
-                    <h3 class="sous-titre">Le délices des sens</h3>
-                    <h3 class="sous-titre2">Folie-Méricourt <i class="far fa-heart"></i></h3>
+                <img src="images_ohmyfood/restaurants/delice_des_sens.jpg" alt="restaurant" class="restaurant__taille">
+                <figcaption class="restaurant__description">
+                    <h3 class="restaurant__soustitre">Le délices des sens</h3>
+                    <p class="restaurant__soustitre2">Folie-Méricourt <i class="far fa-heart"></i></p>
                 </figcaption>
             </a>
         </figure>
 
     </section> <!-- Fin de la présentation des restaurants -->
     
-    <footer> <!-- Pied de page du site -->
-        <h4><img src="images_ohmyfood/logo/ohmyfood.png" id="logo2" alt="logo"/></h4>
+    <footer class="footer"> <!-- Pied de page du site -->
+        <h2 class="footer__titre">ohmyfood</h2>
         
-        <ul class="charte">
+        <ul class="footer__charte">
             <li><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
             <li><a href="#"><i class="fas fa-handshake"></i> Devenir partenaire</a></li>
             <li><a href="#">Mentions légales</a></li>
