@@ -1,0 +1,22 @@
+{
+  "name": "cloeblanchard_3_24022021",
+  "version": "1.0.0",
+  "description": "projet site de présentation de restaurant gastronomique",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloeBlanchard/CloeBlanchard_3_24022021.git"
+  },
+  "keywords": [
+    "restaurant"
+  ],
+  "author": "Cloé Blanchard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CloeBlanchard/CloeBlanchard_3_24022021/issues"
+  },
+  "homepage": "https://github.com/CloeBlanchard/CloeBlanchard_3_24022021#readme"
+}
