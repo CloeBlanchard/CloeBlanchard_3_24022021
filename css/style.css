@@ -27,8 +27,8 @@ header {
   border-radius: 50px 50px 50px 50px;
   background: #eaeaea;
   padding: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 5%;
   color: white;
 }
@@ -39,6 +39,7 @@ header {
 
 .fa-mobile-alt, .fa-list-ul, .fa-store {
   color: #7e7e7e;
+  margin-left: 0px;
 }
 
 .fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
@@ -49,9 +50,13 @@ header {
   background-color: #9356DC;
   color: white;
   display: inline-block;
-  height: 17px;
-  width: 17px;
+  height: 19px;
+  width: 19px;
+  font-size: 19px;
   border-radius: 100%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 57px;
 }
 
 .presentation {
@@ -142,6 +147,17 @@ header {
   text-align: left;
   padding-bottom: 6%;
   margin-left: 3%;
+}
+
+.restaurant__nouveau {
+  background-color: #99E2D0;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 250px;
+  padding: 1.5%;
+  border-radius: 2px 2px 2px 2px;
+  color: #008766;
+  font-size: 14px;
 }
 
 /* Fin de la présentation des restaurants */
