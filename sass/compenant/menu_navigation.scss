@@ -13,8 +13,8 @@
     border-radius: 50px 50px 50px 50px;
     background: $gris;
     padding: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 5%;
     color: $blanc;
 }
@@ -23,6 +23,7 @@
 }
 .fa-mobile-alt, .fa-list-ul, .fa-store {
     color: $gris-foncer;
+    margin-left: 0px;
 }
 .fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
     color: $primaire;
@@ -31,7 +32,11 @@
     background-color: $primaire;
     color: $blanc;
     display: inline-block;
-    height: 17px;
-    width: 17px;
+    height: 19px;
+    width: 19px;
+    font-size: 19px;
     border-radius: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 57px;
 }

@@ -45,4 +45,14 @@
     padding-bottom: 6%;
     margin-left: 3%;
 }
+.restaurant__nouveau {
+    background-color: $tertiaire;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 250px;
+    padding: 1.50%;
+    border-radius: 2px 2px 2px 2px;
+    color: $vert;
+    font-size: 14px;
+}
 /* Fin de la présentation des restaurants */
