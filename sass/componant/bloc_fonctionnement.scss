@@ -1,3 +1,6 @@
+.menu {
+    margin-bottom: 15%;
+}
 .menu__titre {
     font-weight: bold;
     text-align: left;
@@ -10,20 +13,20 @@
     color: black;
 }
 .navigation__fonction {
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 15px 15px 15px 15px;
     background: $gris;
     padding: 5%;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 5%;
-    color: $blanc;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
 }
 .navigation__fonction:hover {
     background-color: $rose-claire;
 }
 .fa-mobile-alt, .fa-list-ul, .fa-store {
     color: $gris-foncer;
-    margin-left: 0px;
+    margin-right: 20px;
 }
 .fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
     color: $primaire;
@@ -31,12 +34,11 @@
 .navigation__puce {
     background-color: $primaire;
     color: $blanc;
-    display: inline-block;
-    height: 19px;
-    width: 19px;
-    font-size: 19px;
+    padding: 0.40%;
+    width: 3.5%;
+    font-size: 15px;
     border-radius: 100%;
     float: left;
-    margin-top: 20px;
-    margin-left: 57px;
+    margin-top: 22px;
+    margin-left: 50px;
 }

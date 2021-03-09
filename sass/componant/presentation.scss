@@ -1,25 +1,24 @@
-.presentation{
-    background-color: #f6f6f6;
+.presentation {
     padding-bottom: 5%;
     margin-bottom: 5%;
+    background: $gris-claire;
 }
-.presentation__paris{
+.presentation__paris {
     background-color: $gris;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 1.5rem;
+    padding: 4%;
+    font-size: 20px;
 }
-.presentation__reservation{
+.presentation__reservation {
     margin-top: 8%;
     font-weight: bold;
     margin-bottom: 3%;
 }
-.presentation__decouvrir{
+.presentation__decouvrir {
     margin-bottom: 5%;
     margin-left: 15%;
     margin-right: 15%;
 }
-.presentation__explorer{
+.presentation__explorer {
     border-radius: 50px 50px 50px 50px;
     background: linear-gradient(to bottom right, $secondaire, $primaire);
     padding: 2%;

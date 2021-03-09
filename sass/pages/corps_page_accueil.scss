@@ -1,7 +1,8 @@
 /* Présentation des restaurants */
 .restaurant{
-    background-color: #f6f6f6;
+    background-color: $gris-claire;
     padding-bottom: 3%;
+    padding-top: 1%;
 }
 .restaurant__titre{
     font-weight: bold;
