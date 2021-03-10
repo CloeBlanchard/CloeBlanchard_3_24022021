@@ -1,7 +1,7 @@
-.palette_corps {
+.corps {
     background-color: $gris-claire;
 }
-.palette__titre {
+.titre {
     font-weight: bold;
     font-style: italic;
     text-align: left;
@@ -9,14 +9,14 @@
     margin-bottom: 3%;
     font-size: 22px;
 }
-.palette__titre2 {
+.titre2 {
     text-align: left;
     margin-left: 5%;
     border-bottom: solid 2px $tertiaire;
     width: 10%;
     margin-bottom: 5%;
 }
-.palette__specialite {
+.specialite {
     background-color: $blanc;
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 10%;
@@ -26,21 +26,26 @@
     padding: 3%;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -.4em 0 .4em rgba(0,0,0,0.2);
 }
-.palette__description {
+.description {
     margin-bottom: 2%;
     font-weight: bold;
 }
-.palette__prix {
+.prix {
     font-weight: bold;
     float: right;
 }
-.palette__commande {
+.commande a {
+    text-decoration: none;
+    color: $blanc;
+}
+.commande {
     border-radius: 50px 50px 50px 50px;
     background: linear-gradient(to bottom right, $secondaire, $primaire);
     padding: 4%;
     margin-bottom: 5%;
     margin-left: 30%;
     margin-right: 30%;
-    color: $blanc;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -.4em 0 .4em rgba(0,0,0,0.2);
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
