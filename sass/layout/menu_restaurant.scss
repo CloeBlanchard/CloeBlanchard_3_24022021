@@ -1,14 +1,15 @@
-body {
+.palette_corps {
     background-color: $gris-claire;
 }
-h2 {
+.palette__titre {
     font-weight: bold;
     font-style: italic;
     text-align: left;
     margin-left: 5%;
+    margin-bottom: 3%;
     font-size: 22px;
 }
-h3 {
+.palette__titre2 {
     text-align: left;
     margin-left: 5%;
     border-bottom: solid 2px $tertiaire;
@@ -21,7 +22,25 @@ h3 {
     margin-bottom: 10%;
     text-align: left;
     margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -.4em 0 .4em rgba(0,0,0,0.2);
 }
-h4 {
+.palette__description {
     margin-bottom: 2%;
+    font-weight: bold;
+}
+.palette__prix {
+    font-weight: bold;
+    float: right;
+}
+.palette__commande {
+    border-radius: 50px 50px 50px 50px;
+    background: linear-gradient(to bottom right, $secondaire, $primaire);
+    padding: 4%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: $blanc;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -.4em 0 .4em rgba(0,0,0,0.2);
 }
