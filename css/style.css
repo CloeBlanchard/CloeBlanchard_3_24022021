@@ -39,7 +39,7 @@ header {
 }
 .menu__fonction:hover {
   background-color: #f5edff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -0.1em 0 0.1em rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247), -0.4em 0 0.4em rgba(0, 0, 0, 0.247);
 }
 .menu__puce {
   background-color: #9356DC;
@@ -108,6 +108,7 @@ header {
   padding-top: 1%;
 }
 .restaurant__titre {
+  font-size: 20px;
   font-weight: bold;
   text-align: left;
   margin-left: 5%;
@@ -125,10 +126,13 @@ header {
   background-color: white;
   width: 80%;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1), -0.2em 0 0.2em rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), -0.4em 0 0.4em rgba(0, 0, 0, 0.1);
   margin-top: 2%;
   margin-left: 10%;
   margin-bottom: 4%;
+}
+.restaurant__carte:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247), -0.4em 0 0.4em rgba(0, 0, 0, 0.247);
 }
 .restaurant a {
   text-decoration: none;
@@ -138,11 +142,6 @@ header {
   font-weight: bold;
   margin-top: 4%;
   margin-bottom: 4%;
-}
-.restaurant .fa-heart {
-  float: right;
-  margin-right: 6%;
-  margin-top: -3%;
 }
 .restaurant__description {
   text-align: left;
@@ -158,6 +157,12 @@ header {
   border-radius: 2px 2px 2px 2px;
   color: #008766;
   font-size: 14px;
+}
+
+.fa-heart {
+  float: right;
+  font-size: 20px;
+  margin-right: 6%;
 }
 
 /* Fin de la présentation des restaurants */
