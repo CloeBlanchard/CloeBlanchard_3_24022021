@@ -1,44 +1,48 @@
 .menu {
     margin-bottom: 15%;
-}
-.menu__titre {
-    font-weight: bold;
-    text-align: left;
-    margin-left: 5%;
-    margin-bottom: 7%;
-    margin-top: 12%;
-}
-.navigation__fonction a {
-    text-decoration: none;
-    color: black;
-}
-.navigation__fonction {
-    border-radius: 15px 15px 15px 15px;
-    background: $gris;
-    padding: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
-}
-.navigation__fonction:hover {
-    background-color: $rose-claire;
+
+    &__titre {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 7%;
+        margin-top: 12%;
+    }
+    &__fonction {
+        border-radius: 15px 15px 15px 15px;
+        background: $gris;
+        padding: 6%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        box-shadow: 6px 6px 6px rgba(0,0,0,0.1), -.4em 0 .4em rgba(0,0,0,0.1);
+    }
+    & a {
+        text-decoration: none;
+        color: black;
+    }
+    &__fonction:hover {
+        background-color: $rose-claire;
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.1), -.10em 0 .10em rgba(0,0,0,0.1);
+    }
+    &__puce {
+        background-color: $primaire;
+        color: $blanc;
+        padding: 1.20%;
+        width: 3.5%;
+        font-size: 15px;
+        border-radius: 100%;
+        float: left;
+        margin-top: 22px;
+        margin-left: 47px;
+    }
 }
 .fa-mobile-alt, .fa-list-ul, .fa-store {
     color: $gris-foncer;
     margin-right: 20px;
+    font-size: 20px;
 }
 .fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
     color: $primaire;
-}
-.navigation__puce {
-    background-color: $primaire;
-    color: $blanc;
-    padding: 0.40%;
-    width: 3.5%;
-    font-size: 15px;
-    border-radius: 100%;
-    float: left;
-    margin-top: 22px;
-    margin-left: 50px;
 }
