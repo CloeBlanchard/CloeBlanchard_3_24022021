@@ -5,6 +5,7 @@
     padding-top: 1%;
 
     &__titre{
+        font-size: 20px;
         font-weight: bold;
         text-align: left;
         margin-left: 5%;
@@ -22,10 +23,13 @@
         background-color: $blanc;
         width: 80%;
         border-radius: 20px;
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.1), -.2em 0 .2em rgba(0,0,0,0.1);
+        box-shadow: 6px 6px 6px rgba(0,0,0,0.1), -.4em 0 .4em rgba(0,0,0,0.1);
         margin-top: 2%;
         margin-left: 10%;
         margin-bottom: 4%;
+    }
+    &__carte:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247), -.4em 0 .4em rgba(0, 0, 0, 0.247);
     }
     & a{
         text-decoration: none;
@@ -35,11 +39,6 @@
         font-weight: bold;
         margin-top: 4%;
         margin-bottom: 4%;
-    }
-    .fa-heart{
-        float: right ;
-        margin-right: 6%;
-        margin-top: -3%;
     }
     &__description{
         text-align: left;
@@ -56,5 +55,10 @@
         color: $vert;
         font-size: 14px;
     }
+}
+.fa-heart{
+    float: right ;
+    font-size: 20px;
+    margin-right: 6%;
 }
 /* Fin de la présentation des restaurants */
