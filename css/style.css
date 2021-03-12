@@ -74,23 +74,27 @@ header {
   background-color: #eaeaea;
   padding: 4%;
   font-size: 20px;
+  box-shadow: inset 0em 0.15em 5px rgba(0, 0, 0, 0.329);
 }
 .presentation__reservation {
   margin-top: 8%;
+  width: 50%;
+  margin-left: 20%;
   font-weight: bold;
+  font-size: 20px;
   margin-bottom: 3%;
 }
 .presentation__decouvrir {
-  margin-bottom: 5%;
+  margin-bottom: 8%;
   margin-left: 15%;
   margin-right: 15%;
 }
 .presentation__explorer {
   border-radius: 50px 50px 50px 50px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  padding: 2%;
+  padding: 5%;
   margin-bottom: 5%;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-right: 25%;
   color: white;
 }
