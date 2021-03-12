@@ -7,7 +7,10 @@ body {
 header {
   margin-top: 4%;
   margin-bottom: 3%;
-  width: 20%;
+}
+
+#logo {
+  width: 50%;
 }
 
 .menu {
@@ -67,25 +70,21 @@ header {
   margin-bottom: 5%;
   background: #f6f6f6;
 }
-
 .presentation__paris {
   background-color: #eaeaea;
   padding: 4%;
   font-size: 20px;
 }
-
 .presentation__reservation {
   margin-top: 8%;
   font-weight: bold;
   margin-bottom: 3%;
 }
-
 .presentation__decouvrir {
   margin-bottom: 5%;
   margin-left: 15%;
   margin-right: 15%;
 }
-
 .presentation__explorer {
   border-radius: 50px 50px 50px 50px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
@@ -94,6 +93,10 @@ header {
   margin-left: 25%;
   margin-right: 25%;
   color: white;
+}
+
+.fa-map-marker-alt {
+  margin-right: 5%;
 }
 
 /* Présentation des restaurants */
@@ -183,7 +186,7 @@ header {
   margin-bottom: 4%;
 }
 
-.menu {
+.menu__restaurant {
   background-color: #f6f6f6;
   position: relative;
   margin-top: -20%;
