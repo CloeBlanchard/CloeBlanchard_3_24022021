@@ -5,7 +5,7 @@
     
     & a {
         text-decoration: none;
-        color: $blanc; //&:hover{}
+        color: $blanc;
     }
     &__navigation {
         padding-bottom: 2%;
@@ -16,5 +16,9 @@
         margin-bottom: 3%;
         color: $blanc;
         font-style: italic;
+        font-family: 'Shrikhand', sans-serif;
     }
+}
+.fa-utensils, .fa-handshake {
+    margin-right: 3%;
 }

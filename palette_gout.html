@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <script src="https://kit.fontawesome.com/5541233122.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
 	<title>Oh My Food</title>	   
@@ -13,67 +15,66 @@
 <body class="corps"> <!-- Corps de la page -->
     
     <header> <!-- En tête de la page du site -->
-        <h1><img src="images_ohmyfood/logo/ohmyfood.png"></h1>
+        <h1><img src="images_ohmyfood/logo/ohmyfood.png" alt="logo" id="logo"></h1>
     </header> <!-- Fin en tête de la page du site -->
     
         <figure>
             <img src="images_ohmyfood/restaurants/palette_du_gout.jpg" alt="restaurant" class="taille">
         </figure>
 
-        <section class="menu"> <!-- Présentation du menu changer non de la classe-->
-
-        <h2 class="titre">La palette du goût <i class="far fa-heart"></i></h2>
+        <section class="restaurant__menu"> <!-- Présentation du menu changer non de la classe-->
+        <h2 class="restaurant__titre">La palette du goût <i class="far fa-heart"></i></h2>
 
         <figcaption>
-            <h3 class="titre2">ENTREES</h3>
+            <h3 class="plat__titre">ENTREES</h3>
 
-            <div class="specialite">
-                <p class="description">Fricassée d'escargot</p>
-                <p>Au piment d'espelette <span class="prix">25€</span></p>
+            <div class="plat">
+                <p class="plat__description">Fricassée d'escargot</p>
+                <p>Au piment d'espelette <span class="plat__prix">25€</span> <i class="far fa-check-circle"></i> </p>
             </div>
             
-            <div class="specialite">
-                <p class="description">Foie gras de canard mi-cuit</p>
-                <p>Et ses copeaux de truffe noire <span class="prix">35€</span></p>
+            <div class="plat">
+                <p class="plat__description">Foie gras de canard mi-cuit</p>
+                <p>Et ses copeaux de truffe noire <span class="plat__prix">35€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <div class="specialite">
-                <p class="description">Oeuf au plat</p>
-                <p>Assaisonné à la truffe sur lit de caviar <span class="prix">20€</span></p>
+            <div class="plat">
+                <p class="plat__description">Oeuf au plat</p>
+                <p>Assaisonné à la truffe sur lit de caviar <span class="plat__prix">20€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <h3 class="titre2">PLATS</h3>
+            <h3 class="plat__titre">PLATS</h3>
 
-            <div class="specialite">
-                <p class="description">Filet de boeuf aux herbes</p>
-                <p>Accompagné de sa ribambelle de légumes <span class="prix">40€</span></p>
+            <div class="plat">
+                <p class="plat__description">Filet de boeuf aux herbes</p>
+                <p>Accompagné de sa ribambelle de légumes <span class="plat__prix">40€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <div class="specialite">
-                <p class="description">Parmentier de queue de boeuf</p>
-                <p>A la truffe noire sur sa purée de panais <span class="prix">35€</span></p>
+            <div class="plat">
+                <p class="plat__description">Parmentier de queue de boeuf</p>
+                <p>A la truffe noire sur sa purée de panais <span class="plat__prix">35€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <div class="specialite">
-                <p class="description">Filet de turbot</p>
-                <p>Aux agrumes <span class="prix">44€</span></p>
+            <div class="plat">
+                <p class="plat__description">Filet de turbot</p>
+                <p>Aux agrumes <span class="plat__prix">44€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <h3 class="titre2">DESSERTS</h3>
+            <h3 class="plat__titre">DESSERTS</h3>
 
-            <div class="specialite">
-                <p class="description">Paris-Brest</p>
-                <pp>Revisité <span class="prix">18€</span></p>
+            <div class="plat">
+                <p class="plat__description">Paris-Brest</p>
+                <pp>Revisité <span class="plat__prix">18€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <div class="specialite">
-                <p class="description">Macaron au chocolat d'exception</p>
-                <p>Et glace à la vanille de Madagascar <span class="prix">22€</span></p>
+            <div class="plat">
+                <p class="plat__description">Macaron au chocolat d'exception</p>
+                <p>Et glace à la vanille de Madagascar <span class="plat__prix">22€</span> <i class="far fa-check-circle"></i> </p>
             </div>
 
-            <div class="specialite">
-                <p class="description">Mousse au chocolat</p>
-                <p>Au piment d'Espelette et à la truffe noire <span class="prix">23€</span></p>
+            <div class="plat">
+                <p class="plat__description">Mousse au chocolat</p>
+                <p>Au piment d'Espelette et à la truffe noire <span class="plat__prix">23€</span> <i class="far fa-check-circle"></i> </p>
             </div>
         </figcaption>
 

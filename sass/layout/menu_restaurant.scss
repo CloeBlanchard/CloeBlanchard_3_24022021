@@ -4,59 +4,64 @@
     object-fit: cover;
     margin-bottom: 4%;
 }
-.menu {
+.restaurant__menu {
     background-color: $gris-claire;
     position: relative;
-    margin-top: -20%;
-    padding-top: 5%;
-    border-radius: 20px 20px 0px 0px;
+    margin-top: -10%;
+    padding-top: 2%;
+    padding-bottom: 20%;
+    border-radius: 30px 30px 0px 0px;
 }
-.titre {
+.restaurant__titre {
+    font-size: 25px;
     font-weight: bold;
     font-style: italic;
     text-align: left;
     margin-left: 5%;
-    margin-bottom: 3%;
-    font-size: 22px;
     font-family: 'Shrikhand', sans-serif;
 }
-.titre2 {
+.plat__titre {
     text-align: left;
     margin-left: 5%;
     border-bottom: solid 2px $tertiaire;
     width: 10%;
     margin-bottom: 5%;
 }
-.specialite {
+.plat {
     background-color: $blanc;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 10px;
     margin-bottom: 10%;
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
     padding: 3%;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -.4em 0 .4em rgba(0,0,0,0.2);
-}
-.description {
-    margin-bottom: 2%;
-    font-weight: bold;
-}
-.prix {
-    font-weight: bold;
-    float: right;
-}
-.commande a {
-    text-decoration: none;
-    color: $blanc;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), -.4em 0 .4em rgba(0,0,0,0.1);
+
+    &__description {
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+    &__prix {
+        float: right;
+        font-weight: bold;
+    }
+    &:hover {
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
+    } 
 }
 .commande {
     border-radius: 50px 50px 50px 50px;
     background: linear-gradient(to bottom right, $secondaire, $primaire);
     padding: 4%;
-    margin-bottom: 5%;
     margin-left: 30%;
     margin-right: 30%;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -.4em 0 .4em rgba(0,0,0,0.2);
     margin-top: 15%;
-    margin-bottom: 15%;
+    & a {
+        text-decoration: none;
+        color: $blanc;
+    }
+}
+.fa-check-circle {
+    display: none;
 }
