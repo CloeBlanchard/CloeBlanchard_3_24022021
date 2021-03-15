@@ -34,15 +34,25 @@
         font-size: 15px;
         border-radius: 100%;
         float: left;
-        margin-top: 22px;
-        margin-left: 47px;
+        margin-top: 6%;
+        margin-left: 10%;
     }
 }
 .fa-mobile-alt, .fa-list-ul, .fa-store {
     color: $gris-foncer;
-    margin-right: 20px;
+    margin-right: 8%;
     font-size: 20px;
 }
 .fa-mobile-alt:hover, .fa-list-ul:hover, .fa-store:hover {
     color: $primaire;
+}
+
+@media screen and (min-width: 572px) {
+    .menu {
+        &__puce {
+            padding: 1%;
+            width: 2.5%;
+            margin-left: 11%;
+        }
+    }
 }

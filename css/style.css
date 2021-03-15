@@ -49,13 +49,13 @@ header {
   font-size: 15px;
   border-radius: 100%;
   float: left;
-  margin-top: 22px;
-  margin-left: 47px;
+  margin-top: 6%;
+  margin-left: 10%;
 }
 
 .fa-mobile-alt, .fa-list-ul, .fa-store {
   color: #7e7e7e;
-  margin-right: 20px;
+  margin-right: 8%;
   font-size: 20px;
 }
 
@@ -63,6 +63,13 @@ header {
   color: #9356DC;
 }
 
+@media screen and (min-width: 572px) {
+  .menu__puce {
+    padding: 1%;
+    width: 2.5%;
+    margin-left: 11%;
+  }
+}
 .presentation {
   padding-bottom: 5%;
   margin-bottom: 5%;
@@ -96,11 +103,20 @@ header {
   margin-right: 25%;
   color: white;
 }
+.presentation__explorer:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247), -0.4em 0 0.4em rgba(0, 0, 0, 0.247);
+}
 
 .fa-map-marker-alt {
   margin-right: 5%;
 }
 
+@media screen and (max-width: 508px) {
+  .presentation__reservation {
+    width: 48%;
+    margin-left: 25%;
+  }
+}
 /* Présentation des restaurants */
 .restaurant {
   background-color: #f6f6f6;
@@ -124,7 +140,7 @@ header {
 .restaurant__carte {
   border: solid 0px white;
   background-color: white;
-  width: 80%;
+  width: 310px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), -0.4em 0 0.4em rgba(0, 0, 0, 0.1);
   margin-top: 2%;
@@ -152,7 +168,7 @@ header {
   background-color: #99E2D0;
   position: absolute;
   margin-top: 15px;
-  margin-left: 250px;
+  margin-left: 220px;
   padding: 1.5%;
   border-radius: 2px 2px 2px 2px;
   color: #008766;

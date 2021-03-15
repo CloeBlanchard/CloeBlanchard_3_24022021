@@ -31,7 +31,19 @@
         margin-right: 25%;
         color: $blanc;
     }
+    &__explorer:hover {
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
+    }
 }
 .fa-map-marker-alt {
     margin-right: 5%;
+}
+
+@media screen and (max-width: 508px) {
+    .presentation {
+        &__reservation {
+            width: 48%;
+            margin-left: 25%;
+        }
+    }
 }

@@ -21,7 +21,7 @@
     &__carte{
         border: solid 0px $blanc;
         background-color: $blanc;
-        width: 80%;
+        width: 310px;
         border-radius: 20px;
         box-shadow: 6px 6px 6px rgba(0,0,0,0.1), -.4em 0 .4em rgba(0,0,0,0.1);
         margin-top: 2%;
@@ -49,7 +49,7 @@
         background-color: $tertiaire;
         position: absolute;
         margin-top: 15px;
-        margin-left: 250px;
+        margin-left: 220px;
         padding: 1.50%;
         border-radius: 2px 2px 2px 2px;
         color: $vert;
@@ -60,5 +60,9 @@
     float: right ;
     font-size: 20px;
     margin-right: 6%;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
 /* Fin de la présentation des restaurants */
