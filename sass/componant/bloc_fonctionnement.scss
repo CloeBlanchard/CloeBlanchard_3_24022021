@@ -47,12 +47,12 @@
     color: $primaire;
 }
 
-@media screen and (min-width: 572px) {
+@media screen and (min-width: 508px) {
     .menu {
         &__puce {
-            padding: 1%;
-            width: 2.5%;
-            margin-left: 11%;
+            padding: 1.5%;
+            width: 3%;
+            margin-top: 5%;
         }
     }
 }

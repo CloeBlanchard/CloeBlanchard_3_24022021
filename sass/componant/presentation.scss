@@ -11,8 +11,8 @@
     }
     &__reservation {
         margin-top: 8%;
-        width: 50%;
-        margin-left: 20%;
+        margin-left: 25%;
+        margin-right: 25%;
         font-weight: bold;
         font-size: 20px;
         margin-bottom: 3%;
@@ -25,25 +25,122 @@
     &__explorer {
         border-radius: 50px 50px 50px 50px;
         background: linear-gradient(to bottom right, $secondaire, $primaire);
-        padding: 5%;
-        margin-bottom: 5%;
+        padding: 15px;
+        margin-bottom: 15px;
         margin-left: 20%;
-        margin-right: 25%;
+        margin-right: 20%;
         color: $blanc;
     }
     &__explorer:hover {
         box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
     }
 }
-.fa-map-marker-alt {
+    .fa-map-marker-alt {
     margin-right: 5%;
 }
 
-@media screen and (max-width: 508px) {
+@media screen and (min-width: 454px) {
     .presentation {
-        &__reservation {
-            width: 48%;
+        &__explorer {
             margin-left: 25%;
+            margin-right: 25%;
         }
     }
 }
+
+@media screen and (min-width: 489px) {
+    .presentation {
+        &__reservation{
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        &__decouvrir {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    }
+}
+
+@media screen and (min-width: 521px) {
+    .presentation {
+        &__explorer {
+            margin-left: 30%;
+            margin-right: 30%;
+        } 
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .presentation {
+        &__reservation{
+            margin-left: 33%;
+            margin-right: 33%;
+        }
+        &__explorer {
+            margin-left: 33%;
+            margin-right: 33%;
+        } 
+    }
+}
+
+@media screen and (min-width: 619px) {
+    .presentation {
+        &__decouvrir {
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+    }
+}
+// Responsive tablette à partir de 768px
+@media screen and (min-width: 768px) {
+    .presentation {
+        &__paris {
+            font-size: 23px;
+        }
+        &__reservation {
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (min-width: 718px) {
+    .presentation {
+        &__reservation {
+            margin-left: 36%;
+            margin-right: 36%;
+        }
+    }
+}
+
+@media screen and (min-width: 743px) {
+    .presentation {
+        &__decouvrir {
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+    }
+}
+
+@media screen and (min-width: 873px) {
+    .presentation {
+        &__reservation {
+            margin-left: 37%;
+            margin-right: 37%;
+        }
+        &__explorer {
+            margin-left: 37%;
+            margin-right: 37%;
+        } 
+    }
+}
+
+@media screen and (min-width: 928px) {
+    .presentation {
+        &__decouvrir {
+            margin-left: 35%;
+            margin-right: 35%;
+        }
+    }
+}
+
+// Fin du responsive tablette 1200px
