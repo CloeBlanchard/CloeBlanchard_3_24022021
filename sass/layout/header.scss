@@ -2,6 +2,32 @@ header {
     margin-top: 4%;
     margin-bottom: 3%;
 }
+
 #logo {
-    width: 50%;
+    width: 180px;
 }
+ // Début du responsive tablette
+@media screen and (min-width: 768px){
+    #logo {
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 895px) {
+    #logo {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    #logo {
+        width:  220px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #logo {
+        width: 230px;
+    }
+}
+// Fin du responsive tablette

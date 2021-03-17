@@ -47,12 +47,144 @@
     color: $primaire;
 }
 
-@media screen and (min-width: 508px) {
+@media screen and (min-width: 440px) {
     .menu {
         &__puce {
-            padding: 1.5%;
-            width: 3%;
-            margin-top: 5%;
+            margin-top: 5.5%
+        }
+    }
+    .fa-mobile-alt, .fa-list-ul, .fa-store {
+        margin-right: 12%;
+    }
+}
+
+@media screen and (min-width: 471px) {
+    .menu {
+        &__fonction {
+            padding: 5%;
+        }
+        &__puce {
+            margin-top: 4.5%;
+            margin-left: 11%;
         }
     }
 }
+
+@media screen and (min-width: 508px) {
+    .menu {
+        &__fonction {
+            padding: 4%;
+        }
+        &__puce {
+            padding: 1.2%;
+            margin-top: 3.5%;
+        }
+    }
+    .fa-mobile-alt, .fa-list-ul, .fa-store {
+        margin-right: 14%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 521px) {
+    .menu {
+        &__fonction {
+            width: 50%;
+        }
+        &__puce {
+            width: 3%;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .menu {
+        &__fonction {
+            width: 40%;
+            margin-left: 25%;
+        }
+        &__puce {
+            width: 2.5%;
+            margin-top: 3.3%;
+            margin-left: 21%;
+        }
+    }
+}
+
+@media screen and (min-width: 715px) {
+    .menu {
+        &__fonction{
+            padding: 3.5%;
+        }
+        &__puce {
+            width: 2.2%;
+            margin-left: 21%;
+            margin-top: 2.75%;
+        }
+    }
+}
+
+// Début du responsive tablette
+@media screen and (min-width: 768px) {
+    .menu {
+        &__titre {
+            font-size: 22px;
+        }
+        &__fonction {
+            padding: 3%;
+            width: 40%;
+            font-size: 20px;
+        }
+        &__puce {
+            margin-top: 2.50%;
+            margin-left: 21%;
+            font-size: 18px;
+        }
+    }
+    .fa-mobile-alt, .fa-list-ul, .fa-store {
+        margin-right: 10%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 873px) {
+    .menu {
+        &__fonction {
+            width: 35%;
+        }
+        &__puce {
+            margin-left: 21.5%;
+            margin-top: 3.26;
+            width: 2%;
+        }
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .menu {
+        &__fonction {
+            width: 30%;
+        }
+        &__puce {
+            margin-left: 21%;
+            margin-top: 3.26;
+            width: 2%;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .menu {
+        &__fonction {
+            width: 27%;
+        }
+        &__puce {
+            margin-left: 22%;
+            margin-top: 3.15;
+            width: 1.50%;
+        }
+    }
+}
+// Fin du responsive tablette
