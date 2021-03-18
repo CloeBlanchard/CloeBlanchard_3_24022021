@@ -22,3 +22,34 @@
 .fa-utensils, .fa-handshake {
     margin-right: 3%;
 }
+
+// Début du responsive tablette
+@media screen and (min-width: 768px) {
+    .footer {
+        &__titre {
+            font-size: 20px;
+        }
+        &__navigation {
+            font-size: 18px;
+        }
+    }
+    .fa-utensils, .fa-handshake {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        &__titre {
+            font-size: 25px;
+        }
+        &__navigation {
+            font-size: 20px;
+        }
+    }
+    .fa-utensils, .fa-handshake {
+        font-size: 23px;
+    }
+}
+
+// Fin du responsive tablette

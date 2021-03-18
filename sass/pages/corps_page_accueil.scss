@@ -103,13 +103,70 @@
 // Début responsive tablette
 
 @media screen and (min-width: 768px) {
-    .restaurant {
-        &__description {
-            padding-bottom: 2%;
+    .restaurant{
+
+        &__titre{
+            font-size: 20px;
+        }
+        &__taille{
+            height: 250px;
+        }
+        &__carte{
+            width: 50%;
+            margin-left: 25%;
+        }
+        &__description{
+            font-size: 18px;
+        }
+        &__nouveau {
+            margin-left: 38%;
+            font-size: 15px;
         }
         &__coeur1{
-            margin-top: -43px;
+            margin-top: -33px;
         }
     }
 }
-/* Fin de la présentation des restaurants */
+
+@media screen and (min-width: 900px) {
+    .restaurant{
+
+        &__taille{
+            height: 280px;
+        }
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .restaurant{
+
+        &__taille{
+            height: 350px;
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    .restaurant{
+
+        &__titre{
+            font-size: 23px;
+        }
+        &__taille{
+            height: 380px;
+        }
+        &__description{
+            font-size: 20px;
+        }
+        &__nouveau {
+            font-size: 18px;
+            padding: 0.80%;
+            margin-left: 40%;
+        }
+        &__coeur1{
+            margin-top: -43px;
+            font-size: 25px;
+        }
+    }
+}
+// Fin du responsive tablette
+// Fin de la présentation des restaurants

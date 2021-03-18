@@ -457,14 +457,57 @@ header {
   }
 }
 @media screen and (min-width: 768px) {
+  .restaurant__titre {
+    font-size: 20px;
+  }
+  .restaurant__taille {
+    height: 250px;
+  }
+  .restaurant__carte {
+    width: 50%;
+    margin-left: 25%;
+  }
   .restaurant__description {
-    padding-bottom: 2%;
+    font-size: 18px;
+  }
+  .restaurant__nouveau {
+    margin-left: 38%;
+    font-size: 15px;
+  }
+  .restaurant__coeur1 {
+    margin-top: -33px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .restaurant__taille {
+    height: 280px;
+  }
+}
+@media screen and (min-width: 1040px) {
+  .restaurant__taille {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .restaurant__titre {
+    font-size: 23px;
+  }
+  .restaurant__taille {
+    height: 380px;
+  }
+  .restaurant__description {
+    font-size: 20px;
+  }
+  .restaurant__nouveau {
+    font-size: 18px;
+    padding: 0.8%;
+    margin-left: 40%;
   }
   .restaurant__coeur1 {
     margin-top: -43px;
+    font-size: 25px;
   }
 }
-/* Fin de la présentation des restaurants */
 .footer {
   background-color: #353535;
   text-align: left;
@@ -490,6 +533,30 @@ header {
   margin-right: 3%;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__titre {
+    font-size: 20px;
+  }
+  .footer__navigation {
+    font-size: 18px;
+  }
+
+  .fa-utensils, .fa-handshake {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__titre {
+    font-size: 25px;
+  }
+  .footer__navigation {
+    font-size: 20px;
+  }
+
+  .fa-utensils, .fa-handshake {
+    font-size: 23px;
+  }
+}
 .taille {
   width: 100%;
   height: 250px;
