@@ -564,7 +564,7 @@ header {
   margin-bottom: 4%;
 }
 
-.carte__menu {
+.carte {
   background-color: #f6f6f6;
   position: relative;
   margin-top: -20%;
@@ -572,7 +572,6 @@ header {
   padding-bottom: 20%;
   border-radius: 30px 30px 0px 0px;
 }
-
 .carte__titre {
   font-family: "Shrikhand", sans-serif;
   font-size: 25px;
@@ -582,49 +581,56 @@ header {
   margin-left: 5%;
   margin-bottom: 5%;
 }
-
-.plat__titre {
+.carte__titre2 {
   text-align: left;
-  margin-left: 5%;
   border-bottom: solid 2px #99E2D0;
   width: 10%;
+  margin-left: 5%;
   margin-bottom: 5%;
+  padding-bottom: 1%;
 }
-
-.plat {
+.carte__presentation {
   background-color: white;
   border-radius: 10px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
   padding: 3%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), -0.4em 0 0.4em rgba(0, 0, 0, 0.1);
 }
-.plat__description {
+.carte__description {
   margin-bottom: 2%;
   font-weight: bold;
 }
-.plat__prix {
+.carte__prix {
   float: right;
   font-weight: bold;
 }
-.plat:hover {
+.carte__presentation:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247), -0.4em 0 0.4em rgba(0, 0, 0, 0.247);
+}
+
+.fa-heart {
+  float: right;
+  margin-right: 8%;
 }
 
 .commande {
   border-radius: 50px 50px 50px 50px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   padding: 4%;
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 30%;
+  margin-left: 33%;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2), -0.4em 0 0.4em rgba(0, 0, 0, 0.2);
   margin-top: 15%;
 }
 .commande a {
   text-decoration: none;
   color: white;
+}
+.commande:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.247), -0.4em 0 0.4em rgba(0, 0, 0, 0.247);
 }
 
 .fa-check-circle {
@@ -636,6 +642,124 @@ header {
   color: black;
   margin-top: -6%;
   margin-left: 5%;
+}
+
+@media screen and (min-width: 466px) {
+  .carte__titre2 {
+    width: 7%;
+  }
+
+  .fa-arrow-left {
+    margin-top: -5%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .taille {
+    margin-top: 2%;
+  }
+
+  .carte {
+    margin-top: -18%;
+  }
+
+  .commande {
+    width: 27%;
+  }
+
+  .fa-arrow-left {
+    margin-top: -4%;
+  }
+}
+@media screen and (min-width: 550px) {
+  .taille {
+    height: 350px;
+  }
+
+  .carte {
+    margin-top: -22%;
+  }
+  .carte__presentation {
+    padding: 2%;
+  }
+
+  .commande {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 617px) {
+  .carte__titre2 {
+    width: 5%;
+  }
+
+  .fa-arrow-left {
+    margin-top: -3%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .taille {
+    height: 400px;
+  }
+
+  .carte__titre2 {
+    width: 6%;
+  }
+  .carte__presentation {
+    padding: 2%;
+  }
+
+  .commande {
+    padding: 3.2%;
+  }
+}
+@media screen and (min-width: 740px) {
+  .taille {
+    height: 450px;
+  }
+
+  .commande {
+    padding: 2.9%;
+    width: 20%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .taille {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .carte {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+  }
+  .carte__presentation {
+    width: 65%;
+    margin-left: 18%;
+  }
+
+  .fa-arrow-left {
+    margin-left: 15%;
+    font-size: 20px;
+  }
+
+  .commande {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .taille {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .taille {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fa-arrow-left {
+    margin-top: -2%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
