@@ -164,7 +164,6 @@
 @media screen and (min-width: 768px) {
     .taille {
         width: 80%;
-        font-size: 20px;
     }
     .carte {
         width: 80%;
@@ -203,4 +202,25 @@
     }
 }
 // Fin du responsive tablette
+// Début du responsive desktop
+
+@media screen and (max-width: 1201px) {
+    .carte {
+        margin-top: -15%;
+        &__titre {
+            font-size: 30px;
+        }
+        &__titre2 {
+            font-size: 22px;
+            width: 5%;
+            margin-top: 5%;
+        }
+        &__presentation {
+            font-size: 20px;
+            padding: 1%;
+            margin-bottom: 2%;
+        }
+    }
+}
+// Fin du responsive desktop
 // Fin de présentation des menus

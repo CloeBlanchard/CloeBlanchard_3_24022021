@@ -724,7 +724,6 @@ header {
 @media screen and (min-width: 768px) {
   .taille {
     width: 80%;
-    font-size: 20px;
   }
 
   .carte {
@@ -759,6 +758,24 @@ header {
 @media screen and (min-width: 1200px) {
   .fa-arrow-left {
     margin-top: -2%;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .carte {
+    margin-top: -15%;
+  }
+  .carte__titre {
+    font-size: 30px;
+  }
+  .carte__titre2 {
+    font-size: 22px;
+    width: 5%;
+    margin-top: 5%;
+  }
+  .carte__presentation {
+    font-size: 20px;
+    padding: 1%;
+    margin-bottom: 2%;
   }
 }
 
