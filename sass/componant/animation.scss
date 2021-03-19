@@ -1,0 +1,40 @@
+.loader {
+    // Création du loader
+
+    border-left: solid 10px $primaire;
+    border-right: solid 10px $primaire;
+    border-top: solid 10px $secondaire;
+    border-bottom: solid 10px $secondaire;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1.2s linear, infinite;
+    -o-animation: spin 1.2s linear, infinite;
+    animation: spin 1.2s linear, infinite;
+
+    // Placement du loader au milieu de la page
+
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+// Animation du loader
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

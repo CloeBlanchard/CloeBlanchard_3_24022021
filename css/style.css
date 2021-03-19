@@ -760,9 +760,9 @@ header {
     margin-top: -2%;
   }
 }
-@media screen and (max-width: 1201px) {
+@media screen and (min-width: 1201px) {
   .carte {
-    margin-top: -15%;
+    margin-top: -10%;
   }
   .carte__titre {
     font-size: 30px;
@@ -776,6 +776,41 @@ header {
     font-size: 20px;
     padding: 1%;
     margin-bottom: 2%;
+  }
+}
+.loader {
+  border-left: solid 10px #9356DC;
+  border-right: solid 10px #9356DC;
+  border-top: solid 10px #FF79DA;
+  border-bottom: solid 10px #FF79DA;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1.2s linear, infinite;
+  -o-animation: spin 1.2s linear, infinite;
+  animation: spin 1.2s linear, infinite;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 
