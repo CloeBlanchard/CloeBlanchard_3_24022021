@@ -4,14 +4,22 @@
     height: 100vh;
     position: fixed;
     animation: loader 3s both;
-  }
-  .lds-spinner {
-    color: official;
-    display: inline-block;
-    position: absolute;
+}
+.load__titre {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-top: 22%;
+  margin-left: 10%;
+}
+.lds-spinner {
+  color: official;
+    position: fixed;
     width: 80px;
     height: 80px;
-  }
+    margin-top: 20%;
+    margin-left: 40%;
+}
   .lds-spinner div {
     transform-origin: 40px 40px;
     animation: lds-spinner 1.2s linear 5;
@@ -19,10 +27,10 @@
   .lds-spinner div:after {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 3px;
     left: 37px;
-    width: 6px;
+    width: 9px;
     height: 18px;
     border-radius: 20%;
     background: $tertiaire;
@@ -88,15 +96,19 @@
     0% {
       opacity:1;
       z-index: 2;
+      margin-top: -47px;
   }
   70% {
       opacity: 1;
+      margin-top: -47px;
   }
   99%{
     z-index: 2;
+    margin-top: -47px;
   }
   100% {
       opacity: 0;
       z-index: -10;
+      margin-top: -47px;
   }
   }
