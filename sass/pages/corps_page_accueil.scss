@@ -47,9 +47,10 @@
     }
     &__nouveau {
         background-color: $tertiaire;
-        position: absolute;
-        margin-top: 5%;
-        margin-left: 60%;
+        float: right;
+        position: relative;
+        margin-top: -90%;
+        margin-right: 3%;
         padding: 1.50%;
         border-radius: 2px 2px 2px 2px;
         color: $vert;
@@ -63,6 +64,56 @@
     }
 }
 
+// Début du responsive
+
+@media screen and (min-width: 432px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -84%;
+        }
+    }
+}
+
+@media screen and (min-width: 456px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -82%;
+        }
+    }
+}
+
+@media screen and (min-width: 478px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -80%;
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -76%;
+        }
+    }
+}
+
+@media screen and (min-width: 517px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -72%;
+        }
+    }
+}
+
+@media screen and (min-width: 555px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -70%;
+        }
+    }
+}
+
 @media screen and (min-width: 567px) {
     .restaurant {
         &__taille {
@@ -72,11 +123,43 @@
             padding-bottom: 4%;
         }
         &__nouveau {
-            margin-left: 65%;
+            margin-top: -78%;
             padding: 1.20%;
         }
         &__coeur1{
             margin-top: -35px;
+        }
+    }
+}
+
+@media screen and (min-width: 591px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -75%;
+        }
+    }
+}
+
+@media screen and (min-width: 618px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -73%;
+        }
+    }
+}
+
+@media screen and (min-width: 648px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -68%;
+        }
+    }
+}
+
+@media screen and (min-width: 694px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -65%;
         }
     }
 }
@@ -90,9 +173,8 @@
             padding-bottom: 3%;
         }
         &__nouveau {
-            margin-left: 67%;
+            margin-top: -73%;
             padding: 1.20%;
-            margin-top: 3%;
         }
         &__coeur1{
             float: right ;
@@ -100,6 +182,15 @@
         }
     }
 }
+
+@media screen and (min-width: 735px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -70%;
+        }
+    }
+}
+
 // Début responsive tablette
 
 @media screen and (min-width: 768px) {
@@ -119,7 +210,7 @@
             font-size: 18px;
         }
         &__nouveau {
-            margin-left: 38%;
+            margin-top: -80%;
             font-size: 15px;
         }
         &__coeur1{
@@ -128,20 +219,64 @@
     }
 }
 
+@media screen and (min-width: 800px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -77%;
+        }
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -74%;
+        }
+    }
+}
+
+@media screen and (min-width: 870px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -72%;
+        }
+    }
+}
+
 @media screen and (min-width: 900px) {
     .restaurant{
-
         &__taille{
             height: 280px;
+        }
+        &__nouveau {
+            margin-top: -74%;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -72%;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .restaurant {
+        &__nouveau {
+            margin-top: -70%;
         }
     }
 }
 
 @media screen and (min-width: 1040px) {
     .restaurant{
-
         &__taille{
             height: 350px;
+        }
+        &__nouveau {
+            margin-top: -80%;
         }
     }
 }
@@ -160,7 +295,7 @@
         &__nouveau {
             font-size: 18px;
             padding: 0.80%;
-            margin-left: 40%;
+
         }
         &__coeur1{
             margin-top: -43px;
@@ -178,7 +313,7 @@
 
         &__carte {
             margin-left: 5%;
-            width: 40%;
+            width: 30%;
             display: inline-block;
             flex-direction: row;
             flex-wrap: wrap;
@@ -187,12 +322,7 @@
             height: 200px;
         }
         &__nouveau {
-            margin-left: 22%;
-            margin-top: 2%;
-        }
-        &__coeur1{
-            margin-top: -35px;
-            font-size: 25px;
+
         }
     }
 

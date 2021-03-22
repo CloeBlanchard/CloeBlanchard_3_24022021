@@ -51,5 +51,21 @@
         font-size: 23px;
     }
 }
-
 // Fin du responsive tablette
+// Début du responsive desktop
+@media screen and (min-width: 1201px) {
+    .footer {
+        &__titre {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__charte {
+            display: flex;
+        }
+        &__navigation {
+            flex: 1 1 auto;
+            margin-left: 4%;
+            padding-bottom: 2%;
+        }
+    }
+}

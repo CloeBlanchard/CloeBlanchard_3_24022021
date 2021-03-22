@@ -1,12 +1,6 @@
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    width: 100%;
+    max-width: 1920px;
     height: 100vh;
-}
-
-@media screen and (min-width: 1201px) {
-    body {
-        max-width: 1202px;
-    }
 }

@@ -177,7 +177,6 @@
         }
         &__explorer {
             margin-left: 38%;
-            margin-right: 38%;
         }
     }
 }
@@ -227,21 +226,20 @@
 // Début du responsive Desktop 1201px
 @media screen and (min-width: 1201px) {
     .presentation {
-        margin-left: 10%;
-        width: 80%;
+        width: 70%;
+        margin-left: 15%;
+
         &__reservation {
             font-size: 24px;
             width: 30%;
         }
         &__decouvrir {
             font-size: 22px;
-            width: 40%;
-            margin-left: 35%;
+            width: 50%;
         }
         &__explorer {
             font-size: 22px;
-            width: 25%;
-            margin-left: 40%;
+            width: 30%;
         }
     }
 }
