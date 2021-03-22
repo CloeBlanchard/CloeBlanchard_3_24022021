@@ -214,13 +214,21 @@
         }
     }
 }
+
+@media screen and (min-width: 1191px) {
+    .presentation {
+        &__decouvrir {
+            width: 36%;
+            margin-left: 33%;
+        }
+    }
+}
 // Fin du responsive tablette 1200px
 // Début du responsive Desktop 1201px
 @media screen and (min-width: 1201px) {
     .presentation {
-        width: 80%;
         margin-left: 10%;
-
+        width: 80%;
         &__reservation {
             font-size: 24px;
             width: 30%;

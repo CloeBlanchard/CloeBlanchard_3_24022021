@@ -169,4 +169,32 @@
     }
 }
 // Fin du responsive tablette
+//  Début du responsive desktop
+
+@media screen and (min-width: 1201px) {
+    .restaurant {
+        margin-left: 10%;
+        width: 80%;
+
+        &__carte {
+            margin-left: 5%;
+            width: 40%;
+            display: inline-block;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        &__taille {
+            height: 200px;
+        }
+        &__nouveau {
+            margin-left: 22%;
+            margin-top: 2%;
+        }
+        &__coeur1{
+            margin-top: -35px;
+            font-size: 25px;
+        }
+    }
+
+}
 // Fin de la présentation des restaurants

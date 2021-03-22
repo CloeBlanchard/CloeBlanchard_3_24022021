@@ -197,8 +197,30 @@ header {
   }
   .menu__puce {
     margin-left: 22%;
-    margin-top: 3.15;
-    width: 1.5%;
+    margin-top: 2.5%;
+    width: 1.8%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .menu {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .menu__titre {
+    font-size: 24px;
+  }
+  .menu__puce {
+    margin-top: 2.4%;
+    width: 1.8%;
+  }
+  .menu__fonction {
+    width: 50%;
+    font-size: 22px;
+  }
+
+  .fa-mobile-alt, .fa-list-ul, .fa-store {
+    margin-right: 15%;
+    font-size: 28px;
   }
 }
 .presentation {
@@ -367,10 +389,16 @@ header {
     width: 37%;
   }
 }
+@media screen and (min-width: 1191px) {
+  .presentation__decouvrir {
+    width: 36%;
+    margin-left: 33%;
+  }
+}
 @media screen and (min-width: 1201px) {
   .presentation {
-    width: 80%;
     margin-left: 10%;
+    width: 80%;
   }
   .presentation__reservation {
     font-size: 24px;
@@ -532,6 +560,30 @@ header {
   }
   .restaurant__coeur1 {
     margin-top: -43px;
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .restaurant {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .restaurant__carte {
+    margin-left: 5%;
+    width: 40%;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .restaurant__taille {
+    height: 200px;
+  }
+  .restaurant__nouveau {
+    margin-left: 22%;
+    margin-top: 2%;
+  }
+  .restaurant__coeur1 {
+    margin-top: -35px;
     font-size: 25px;
   }
 }
