@@ -1,4 +1,5 @@
-.loader {
+// Animation loader
+/*.loader {
   background: linear-gradient($primaire, $secondaire);
   width: 100%;
   height: 100vh;
@@ -143,4 +144,16 @@
   .load__titre {
     margin-top: 27%;
   }
+}*/
+// Fin d'animation du loader
+// Animation hover coeur
+.coeur-plein {
+  opacity: 0;
+  transition: all 1s linear;
+  -o-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+}
+.coeur-plein:hover {
+  color: $primaire;
+  opacity: 1;
 }
