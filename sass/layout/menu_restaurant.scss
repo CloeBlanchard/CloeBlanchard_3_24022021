@@ -203,7 +203,6 @@
 }
 // Fin du responsive tablette
 // Début du responsive desktop
-
 @media screen and (min-width: 1201px) {
     .carte {
         margin-top: -10%;
@@ -220,6 +219,9 @@
             padding: 1%;
             margin-bottom: 2%;
         }
+    }
+    .commande {
+        font-size: 24px;
     }
 }
 // Fin du responsive desktop

@@ -305,12 +305,12 @@
 }
 // Fin du responsive tablette
 //  Début du responsive desktop
-
 @media screen and (min-width: 1201px) {
     .restaurant {
-        margin-left: 10%;
-        width: 80%;
-
+        width: 100%;
+        &__titre {
+            font-size: 24px;
+        }
         &__carte {
             margin-left: 5%;
             width: 30%;
@@ -319,10 +319,13 @@
             flex-wrap: wrap;
         }
         &__taille {
-            height: 200px;
+            height: 250px;
         }
         &__nouveau {
-
+            margin-top: -85%;
+        }
+        &__coeur1{
+            margin-top: -38px;
         }
     }
 
