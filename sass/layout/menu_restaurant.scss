@@ -50,7 +50,8 @@
     }
     &__presentation:hover {
         box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
-    } 
+    }
+
 }
 .fa-heart {
     float: right;
@@ -71,9 +72,6 @@
     &:hover {
         box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
     }
-}
-.fa-check-circle {
-    display: none;
 }
 .fa-arrow-left {
     float: left;
