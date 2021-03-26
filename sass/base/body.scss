@@ -4,3 +4,11 @@ body {
     max-width: 1201px;
     height: 100vh;
 }
+
+@media screen and (min-width: 1201px) {
+    .wrap {
+        max-width: 1201px;
+        margin: 0 auto 0;
+        width: 100%;
+    }
+}
