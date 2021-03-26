@@ -180,6 +180,8 @@
       color: $blanc;
       border-radius: 0px 10px 10px 0px;
       transition: width 2s, opacity 0.5s, transform 2s;
+      -webkit-transition: width 2s, opacity 0.5s, transform 2s;
+      -moz-transition: width 2s, opacity 0.5s, transform 2s;
     }
     &__presentation-animation:hover .valide-icone {
       animation: rotation 1s linear; 
