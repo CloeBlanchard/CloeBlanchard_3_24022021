@@ -32,6 +32,7 @@
     }
     &__presentation {
         background-color: $blanc;
+        text-overflow: clip ellipsis;
         border-radius: 10px;
         margin-bottom: 5%;
         text-align: left;
@@ -41,8 +42,12 @@
         box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), -.4em 0 .4em rgba(0,0,0,0.1);
     }
     &__description {
+        text-overflow: clip ellipsis;
         margin-bottom: 2%;
         font-weight: bold;
+    }
+    &__descriptions {
+        text-overflow: clip ellipsis;
     }
     &__prix {
         float: right;

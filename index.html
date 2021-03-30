@@ -9,11 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="./palette_gout.html">
-    <link href="./note_enchantee.html">
-    <link href="./la_francaise.html">
-    <link href="./delice_sens.html">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Oh My Food</title>	
 </head>
 
 <body class="wrap"> <!-- Corps de la page -->
@@ -22,7 +19,7 @@
         <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
         <div class="load__titre">Ohmyfood</div>
     </div>
-
+    
     <header>
         <h1><img src="images_ohmyfood/logo/ohmyfood.png" id="logo" alt="logo"/></h1>
     </header>
@@ -37,11 +34,11 @@
     <section class="menu"> <!-- Menu de la page d'accueil -->
         <h2 class="menu__titre"> Fonctionnement </h2>
         <nav class="menu__navigation">
-            <ol class="menu__liste">
-                <span class="menu__puce">1</span><li class="menu__fonction"><a href="#"><i class="fas fa-mobile-alt"></i> Choisissez un restaurant</a></li>
-                <span class="menu__puce">2</span><li class="menu__fonction"><a href="#"><i class="fas fa-list-ul"></i> Composez votre menu</a></li>
-                <span class="menu__puce">3</span><li class="menu__fonction"><a href="#"><i class="fas fa-store"></i> Dégustez un restaurant</a></li>
-            </ol>
+            <div class="menu__liste">
+                <span class="menu__puce">1</span><div class="menu__fonction"><a href="#"><i class="fas fa-mobile-alt"></i> Choisissez un restaurant</a></div>
+                <span class="menu__puce">2</span><div class="menu__fonction"><a href="#"><i class="fas fa-list-ul"></i> Composez votre menu</a></div>
+                <span class="menu__puce">3</span><div class="menu__fonction"><a href="#"><i class="fas fa-store"></i> Dégustez un restaurant</a></div>
+            </div>
         </nav>
     </section> <!-- Fin du menu de la page d'accueil -->
 
@@ -49,44 +46,44 @@
         <h2 class="restaurant__titre">Restaurants</h2>
 
         <figure class="restaurant__carte">
-            <a href="./palette_gout.html">
+            <a href="palette_gout.html">
                 <img src="images_ohmyfood/restaurants/palette_du_gout.jpg" alt="restaurant" class="restaurant__taille">
-                <figcaption class="restaurant__description">
+                <article class="restaurant__description">
                     <h3 class="restaurant__soustitre">La palette du goût</h3>
-                    <p class="restautant__soustitre2">Ménilmontant <i class="far fa-heart restaurant__coeur1"></i><i class="fas fa-heart restaurant__coeur1 coeur-plein"></i></p>
+                    <p class="restautant__soustitre2">Ménilmontant <i class="far fa-heart restaurant__coeur1 coeur-vide"></i><i class="fas fa-heart restaurant__coeur1 coeur-plein"></i></p>
                     <div class="restaurant__nouveau">Nouveau</div>
-                </figcaption>
+                </article>
             </a>
         </figure>
 
         <figure class="restaurant__carte">
-            <a href="./note_enchantee.html">
+            <a href="note_enchantee.html">
                 <img src="images_ohmyfood/restaurants/note_enchantée.jpg" alt="restaurant" class="restaurant__taille">
-                <figcaption class="restaurant__description">
+                <article class="restaurant__description">
                     <h3 class="restaurant__soustitre">La note enchantée</h3>
                     <p class="restaurant__soustitre2">Charonne <i class="far fa-heart restaurant__coeur1"></i><i class="fas fa-heart restaurant__coeur1 coeur-plein"></i></p>
                     <div class="restaurant__nouveau">Nouveau</div>
-                </figcaption>
+                </article>
             </a>
         </figure>
 
         <figure class="restaurant__carte">
-            <a href="./la_francaise.html">
+            <a href="la_francaise.html">
                 <img src="images_ohmyfood/restaurants/la_francaise.jpg" alt="restaurant" class="restaurant__taille">
-                <figcaption class="restaurant__description">
+                <article class="restaurant__description">
                     <h3 class="restaurant__soustitre">A la française</h3>
                     <p class="restaurant__soustitre2">Cité Rouge <i class="far fa-heart restaurant__coeur1"></i><i class="fas fa-heart restaurant__coeur1 coeur-plein"></i></p>
-                </figcaption>
+                </article>
             </a>
         </figure>
 
         <figure class="restaurant__carte">
-            <a href="./delice_sens.html">
+            <a href="delice_sens.html">
                 <img src="images_ohmyfood/restaurants/delice_des_sens.jpg" alt="restaurant" class="restaurant__taille">
-                <figcaption class="restaurant__description">
+                <article class="restaurant__description">
                     <h3 class="restaurant__soustitre">Le délice des sens</h3>
                     <p class="restaurant__soustitre2">Folie-Méricourt <i class="far fa-heart restaurant__coeur1"></i><i class="fas fa-heart restaurant__coeur1 coeur-plein"></i></p>
-                </figcaption>
+                </article>
             </a>
         </figure>
 
@@ -99,9 +96,8 @@
             <li class="footer__navigation"><a href="#"><i class="fas fa-utensils"></i> Proposer un restaurant</a></li>
             <li class="footer__navigation"><a href="#"><i class="fas fa-handshake"></i> Devenir partenaire</a></li>
             <li class="footer__navigation"><a href="#">Mentions légales</a></li>
-            <li class="footer__navigation"><a href="#">Contact</a></li>
+            <li class="footer__navigation"><address><a href="mailto:ohmyfood@contact.com">Contact</a></address></li>
         </ul>
     </footer> <!-- Fin du pied de page du site -->
-
 </body>
 </html>
