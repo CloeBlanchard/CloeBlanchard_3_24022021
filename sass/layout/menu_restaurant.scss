@@ -31,32 +31,43 @@
         padding-bottom: 1%;
     }
     &__presentation {
-        background-color: $blanc;
-        text-overflow: clip ellipsis;
+        background-color: $blanc;   
+        overflow: hidden;
         border-radius: 10px;
-        margin-bottom: 5%;
         text-align: left;
+        margin-bottom: 5%;
         margin-left: 5%;
         margin-right: 5%;
-        padding: 3%;
+        padding-left: 2.50%;
+        padding-right: 2.50%;
+        padding-top: 2.50%;
+        padding-bottom: 0%;
         box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1), -.4em 0 .4em rgba(0,0,0,0.1);
     }
+        &__presentation:hover {
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
+        }
     &__description {
-        text-overflow: clip ellipsis;
         margin-bottom: 2%;
         font-weight: bold;
     }
     &__descriptions {
-        text-overflow: clip ellipsis;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 80%;
+    }
+    &__plat{
+        position: relative;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0.40%;
     }
     &__prix {
-        float: right;
+        right: 1rem;
+        position: absolute;
         font-weight: bold;
     }
-    &__presentation:hover {
-        box-shadow: 10px 10px 10px rgba(0,0,0,0.247), -.4em 0 .4em rgba(0,0,0,0.247);
-    }
-
 }
 .fa-heart {
     float: right;
@@ -117,9 +128,6 @@
     }
     .carte {
         margin-top: -22%;
-        &__presentation {
-            padding: 2%;
-        }
     }
     .commande {
        width: 25%; 
@@ -143,9 +151,6 @@
     .carte {
         &__titre2 {
             width: 6%;
-        }
-        &__presentation {
-            padding: 2%;
         }
     }
     .commande {
@@ -171,12 +176,7 @@
     .carte {
         width: 80%;
         margin-left: 10%;
-        font-size: 18px;
 
-        &__presentation {
-            width: 65%;
-            margin-left: 18%;
-        }
     }
     .fa-arrow-left {
         margin-left: 15%;
@@ -209,6 +209,7 @@
 @media screen and (min-width: 1201px) {
     .carte {
         margin-top: -10%;
+      
         &__titre {
             font-size: 30px;
         }
@@ -216,11 +217,6 @@
             font-size: 22px;
             width: 5%;
             margin-top: 5%;
-        }
-        &__presentation {
-            font-size: 20px;
-            padding: 1%;
-            margin-bottom: 2%;
         }
     }
     .commande {
