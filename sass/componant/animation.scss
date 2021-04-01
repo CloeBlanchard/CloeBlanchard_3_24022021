@@ -16,7 +16,6 @@
   margin-left: 20%;
 }
 .lds-spinner {
-  color: official;
   position: fixed;
   width: 80px;
   height: 80px;
@@ -159,8 +158,6 @@
   background-image: linear-gradient($primaire, $secondaire);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
   opacity: 1;
 }
 // Fin de l'animation hover coeur
@@ -285,34 +282,34 @@
 // Début de l'animation de défilement du menu
 .carte {
   &__presentation-animation-entree1 {
-    animation: defilement 2000ms 2.3s;
+    animation: defilement 2000ms 0s;
   }
   &__presentation-animation-entree2 {
-    animation: defilement 2000ms 2.5s;
+    animation: defilement 2000ms 0.5s;
   }
   &__presentation-animation-entree3 {
-    animation: defilement 2000ms 2.7s;
+    animation: defilement 2000ms 1s;
   }
   &__presentation-animation-entree4 {
-    animation: defilement 2000ms 2.9s;
+    animation: defilement 2000ms 1.5s;
   }
   &__presentation-animation-plat1 {
-    animation: defilement 2000ms 2.9s;
+    animation: defilement 2000ms 1.5s;
   }
   &__presentation-animation-plat2 {
-    animation: defilement 2000ms 3.1s;
+    animation: defilement 2000ms 2s;
   }
   &__presentation-animation-plat3 {
-    animation: defilement 2000ms 3.3s;
+    animation: defilement 2000ms 2.5s;
   }
   &__presentation-animation-dessert1 {
-    animation: defilement 2000ms 3.3s;
+    animation: defilement 2000ms 2.5s;
   }
   &__presentation-animation-dessert2 {
-    animation: defilement 2000ms 3.5s;
+    animation: defilement 2000ms 3s;
   }
   &__presentation-animation-dessert3 {
-    animation: defilement 2000ms 3.7s;
+    animation: defilement 2000ms 3.5s;
   }
 }
 @keyframes defilement {
