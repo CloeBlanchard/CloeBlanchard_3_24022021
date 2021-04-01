@@ -955,6 +955,9 @@ header {
     width: 5%;
     margin-top: 5%;
   }
+  .carte__presentation {
+    padding-top: 1%;
+  }
 
   .commande {
     font-size: 24px;
@@ -1228,17 +1231,13 @@ header {
     margin-top: -10.8%;
   }
 }
-/*@media screen and (min-width: 1201px) {
-  .carte {
-    &__valide-animation {
-      margin-top: -11%;
-      margin-right: -1.55%;
-      padding-left: 0.30%;
-      padding-bottom: 1%;
-      margin-bottom: 0%;
-    }
+@media screen and (min-width: 1201px) {
+  .carte__valide-animation {
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    margin-top: -8%;
   }
-}*/
+}
 .carte__presentation-animation-entree1 {
   animation: defilement 2000ms 2.3s;
 }
